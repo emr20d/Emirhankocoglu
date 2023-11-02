@@ -1,0 +1,112 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: url(resimler/arak.png) ;
+    background-position: center;
+    background-size: cover;
+ height: 100vh;
+}
+
+.navbar{
+    width:1fr ;
+    height: 75px;
+    margin: auto;
+    background: rgba(0,0,0,0.5)60%; 
+     
+ }
+ 
+ .icon{
+    
+     width: 170px;
+     float: left;
+     height: 75px;
+     border-bottom-right-radius: 15px;
+     background: url(resimler/HABER.png);
+     background-position: center;
+     background-size: cover;
+     margin-left: px ;
+     
+ }
+ .menu{
+     width: 400px;
+     float: left;
+     height: 70px;
+ }
+ .anv{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     letter-spacing: 2.5px;
+ }
+ ul li{
+     list-style: none;
+     margin-left: 100px;
+     margin-top: 27px;
+     font-size: 14px;
+ }
+ ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-family: arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+     
+     }
+   ul li a:hover{
+     color: red;
+   }
+   .video{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 25%;
+    background:url(resimler/red.png);
+    width: 700px ;
+    height: 400px;
+    
+   }
+   .haberv{
+    border-radius:20px;
+    margin-left: 33px;
+    margin-top: 15px;
+   }
+   .haberacik{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 30px;
+    background: url(resimler/red.png);
+    width: 1fr;
+    height: 500px;
+   }h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 555px;
+   }
+   .Gündem{
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 26px;
+   }
+   p{
+    display:inline;
+    margin-left: 10px;
+    color: white;
+    font-size: 22px;
+   }
+   .belge{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1015px;
+    background: url(resimler/belgee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 400px;
+   }
+
+

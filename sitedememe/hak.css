@@ -1,0 +1,267 @@
+body{
+    padding: 0;
+    margin: 0;
+   background: url(resimler/back.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+}
+.main{
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+ height: 109vh;
+}
+.navbar{
+   width:100% ;
+   height: 75px;
+   margin: auto;
+   background: rgba(0,0,0,0.5)60%; 
+    
+}
+
+.icon{
+   
+    width: 170px;
+    float: left;
+    height: 75px;
+    border-bottom-right-radius: 15px;
+    background: url(resimler/HABER.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: px ;
+    
+}
+.logo2{
+   color: #fff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.anv{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2.5px;
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+    }
+  ul li a:hover{
+    color: red;
+  }
+
+
+
+/*Bu div ekip arkadaşlarımız yazınını ve fotorafları bir araya alıcak */
+.ana{
+    
+   display: block;
+   width: 100%;
+   height: 550px ;
+}
+p{
+    margin-left: 520px;
+    font-size: 50px;
+    font-family: initial;
+}
+.sira{
+    margin-left: 450px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    
+    width: 600px;
+    height: 300px;
+}
+.box{
+    padding: 0;
+    border: 0;
+    
+    width: 100px;
+    height: 200px;
+    margin-left: 2px;
+    border-radius: 35px;
+    position: relative;
+    transition: 0.5s;
+}
+.box:hover{
+  width: 200px;
+  cursor: pointer;
+  
+}
+.box1 {
+   background-image: url(resimler/hakan.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.box2 {
+    background-image: url(resimler/burak.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3 {
+    background-image: url(resimler/bilal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4 {
+    background-image: url(resimler/guzel-kadin-slider_275b2183-d2f9-47b5-b6d8-2a0d89bcb703.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tanim{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 60px;
+    opacity: 0;
+    font-size: 25px;
+    transition:  0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tanim:hover{
+ opacity: 1;
+ bottom: 20px;
+}
+.acik{
+    background:url(resimler/red.png);
+    
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+    
+}
+h3{
+    text-shadow: 10px 0  30px white;
+    letter-spacing:1px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+    display:inline-block;
+    
+}
+h1{
+        text-shadow: 10px 0  10px white;
+    margin-left: 590px;
+}
+h2{
+    border: 0;
+    font-size: 30px;
+        text-shadow: 10px 0  10px white;
+        margin-left: 617px;
+    
+}
+h6{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+.pro{
+    margin-top: 10px;
+    position: absolute;
+    display:inline-block;
+    margin-left: 1100px;
+    background: url(resimler/bilal.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+.yazi{
+    margin-left: 470px;
+}
+span{
+    color: rgb(245, 245, 245);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ero{
+    margin-top: 10px;
+    position: absolute;
+    display:inline-block;
+    margin-left: 50px;
+    background: url(resimler/hakan.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+.yaa{
+    margin-top: 0;
+    margin-left: 500px;
+    position:absolute;
+    display: flex;
+
+}
+.ya{
+    margin-top: 0;
+    font-size: 30px;
+    margin-left: 500px;
+    position:absolute;
+    display: flex;
+}
+.y{
+    margin-top: 0px;
+    position: absolute;
+    display:inline-block;
+    margin-left: 50px;
+    background: url(resimler/ece.webp);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+.pr{
+    margin-top: 0px;
+    position: absolute;
+    display:inline-block;
+    margin-left: 1100px;
+    background: url(resimler/burak.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+

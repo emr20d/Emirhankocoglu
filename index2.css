@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+  width:100% ;
+  height: 10%;
+  background: rgba(0,0,0,0.5)60%;
+}
+main{
+  width: 100%;
+  
+
+height: 100vh;
+}
+.anv{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2.5px;
+  
+
+}
+.menu{
+  margin-left: 35%;
+ 
+      display: inline-block;
+      margin-top: 0.9%;
+      
+      height: 78%;
+  
+  
+}
+ul li{
+  list-style: none;
+  margin-left: 20%;
+  margin-top: 3%;
+  font-size: 100%;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-size: 90%;
+  
+  }
+  ul li a:hover{
+      color:rgb(62, 62, 62) ;
+    }
+    .ana-resim{
+        width: 100%;
+        height: 100vh;
+        background-image: url(resimlerv2/1.png);
+        background-position: center;
+        background-size: cover;
+    }
+     .sıra{
+        margin-top: 10%;
+        width: 100%;
+        height: 62vh;
+     }
+
+    .kutu{
+        margin-top: 2%;
+        margin-left: 10%;
+        display: inline-block;
+        width: 20%;
+        height: 60%;
+        background: rgba(0,0,0,0.5)60%;
+        transition: 0.4s ease-in-out;
+        border-color: #a7a6a6;
+       border-style: solid;
+        border-radius: 5%;
+    }
+    .kutu:hover{
+      transform: translateY(-5%);
+    }
+    .kutu-kucuk{
+      background-position: center;
+      background-size: cover;
+      background-image: url(resimlerv2/Haber\ sitesi\ projesi\ içim\ Tıkla.png);
+      margin-top: 2%;
+      margin-left: 2%;
+      width: 96%;
+      height: 96%;
+      border-radius: 4%;
+    }
+   
